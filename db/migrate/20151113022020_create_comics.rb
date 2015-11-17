@@ -4,7 +4,7 @@ class CreateComics < ActiveRecord::Migration
 
     	t.string :name
     	t.text :description
-    	t.string :address
+    	t.string :artist
 
 
       t.timestamps
