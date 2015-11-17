@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 20151113022020) do
   create_table "comics", force: true do |t|
     t.string   "name"
     t.text     "description"
-    t.string   "address"
+    t.string   "artist"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
