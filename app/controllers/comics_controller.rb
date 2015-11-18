@@ -1,7 +1,7 @@
 class ComicsController < ApplicationController
 
 	def index
-		@comics = Comic.all
+		@comics = Comic.order(:id).page(params[:page]).per_page(10)
 	end
 
 	def new
